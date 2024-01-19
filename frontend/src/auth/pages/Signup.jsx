@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import { Link, Redirect } from "react-router-dom";
 import classes from "../css/Login.module.css";
 import logoImage from "../../images/logo.png";
-import AuthFooter from "../components/AuthFooter";
+
 import { signup } from "../helpers";
 
 const initialState = {

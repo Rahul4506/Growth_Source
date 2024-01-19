@@ -9,12 +9,12 @@ const Routes = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/signup" component={Signup} exact /> {/* Add the Signup route */}
-        <PrivateRoute path="/" component={Home} />
-        <Route path="/login" component={Login} exact />
+        <Route path="/login" component={Login}  />
+        <Route path="/signup" component={Signup}  />
+        <Route path="/home" component={Home} />
       </Switch>
     </BrowserRouter>
   );
 };
 
-export default Routes;
+export  default  Routes;
